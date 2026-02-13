@@ -1,0 +1,28 @@
+.sidebar{
+  background-color: white;
+  position: fixed;
+  left:0px;
+  bottom: 0px;
+  top:46px;
+  z-index: 200;
+}
+.sidlin{
+  display: flex;
+  height:58px;
+  margin-bottom: 1px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.sidlin:hover{
+ background-color: rgb(239, 235, 235);
+}
+.si{
+  height: 20px;
+  margin-bottom: 4px;
+}
+.sf{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9px;
+}

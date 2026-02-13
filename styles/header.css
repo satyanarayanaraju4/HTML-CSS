@@ -1,0 +1,149 @@
+.header{
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  right: 0px;
+  left:0px;
+  top:0px;
+  border-bottom-width: 1px ;
+  border-bottom-style: solid ;
+  border-color: rgb(194, 189, 189);
+  z-index: 100;
+}
+.lasthead{
+display: flex;
+align-items: center;
+margin-right: 40px;
+}
+.midhead{
+flex:1;
+margin-left: 65px;
+margin-right: 20px;
+max-width: 500px;
+display: flex;
+align-items: center;
+}
+.righthead{
+width: 180px;
+display: flex;
+align-items: center;
+margin-left: 29px;
+margin-right: 24px;
+justify-content: space-between;
+flex-shrink: 0;
+}
+.ham{
+  height: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.youlog{
+ height:16;
+
+}
+.searchbar{
+  flex: 1;
+  width: 0;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 2px;
+  border-color: rgb(192,192,192);
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: inset 1px,2px,3px rgb(0,0,0,0.05);
+  padding-left: 10px;
+}
+.searchbar::placeholder{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.serbutt{
+  height: 33px;
+  width: 66px;
+  border-color: rgb(192, 192, 192);
+  border-style: solid;
+  border-width: 1px;
+  margin-left:-1px;
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.up-ic-co,.yta,.noti{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.serbutt .tooltip,.vrbutt .tooltip,.up-ic-co .tooltip,.yta .tooltip,.noti .tooltip{
+  position: absolute;
+  background-color: rgb(106, 106, 106);
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 14px;
+  bottom: -25px;
+  opacity: 0;
+  pointer-events: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.noti .tooltip{
+  bottom: -36px;
+}
+.serbutt:hover .tooltip,.vrbutt:hover .tooltip,.up-ic-co:hover .tooltip,.yta:hover .tooltip,.noti:hover .tooltip{
+  opacity:1;
+}
+.vrbutt{
+  height: 36px;
+  width: 36px;
+  margin-left: 6px;
+  border-radius: 25px;
+  color: white;
+  border: none;
+  background-color:rgb(237, 234, 234) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.vr{
+  height: 24px;
+
+}
+.serico{
+  height: 28px;
+
+}
+.i1,.i2,.i3{
+  height: 24px;
+}
+.i4{
+  height: 32px;
+  border-radius: 16px;
+}
+.noti{
+  position: relative;
+}
+.noticou{
+  position: absolute;
+  background-color: rgb(216, 3, 3);
+  color: white;
+  top:0;
+  right: 0;
+  font-size: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 490;
+  border-radius: 10px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 5px;
+}

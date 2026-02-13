@@ -1,0 +1,92 @@
+ .gridvideos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 18px;
+        row-gap: 40px;
+      }
+@media (max-width: 1000px) {
+   .gridvideos{
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+}
+
+@media (max-width: 750px) {
+   .gridvideos{
+    grid-template-columns: 1fr 1fr;
+   }
+}
+
+      .thumbnail1,.thumbnail2,.thumbnail3,.thumbnail4,.thumbnail5,.thumbnail6,.thumbnail7,
+      .thumbnail8,.thumbnail9,.thumbnail10,.thumbnail11,.thumbnail12{
+        width: 100%;
+      }
+      .thumbcls1,.thumbcls2,.thumbcls3,.thumbcls4,.thumbcls5,.thumbcls6,
+      .thumbcls7,.thumbcls8,.thumbcls9,.thumbcls10,.thumbcls11,.thumbcls12{
+        margin-bottom: 8px;
+        position: relative;
+      }
+      .div1,.div2,.div3,.div4,.div5,.div6,.div7,
+      .div8,.div9,.div10,.div11,.div12{
+      
+      }
+      .div1,.div3,.div2,.div4,.div5,.div6,.div7,
+      .div8,.div9,.div10,.div11,.div12{
+
+      }
+      .prodiv1,.prodiv2,.prodiv3,.prodiv4,.prodiv5,.prodiv6,.prodiv7,
+      .prodiv8,.prodiv9,.prodiv10,.prodiv11,.prodiv12{
+        
+      }
+      .texdiv1, .texdiv2,.texdiv3,.texdiv4,.texdiv5,.texdiv6,
+      .texdiv7,.texdiv8,.texdiv9,.texdiv10,.texdiv11,.texdiv12{
+
+      }
+      .pro1,.pro2,.pro3,.pro4,.pro5,.pro6,
+      .pro7,.pro8,.pro9,.pro10,.pro11,.pro12{
+        width: 30px;
+        border-radius: 60px;
+      }
+      .des1,.des2,.des3,.des4,.des5,.des6,
+      .des7,.des8,.des9,.des10,.des11,.des12{
+        font-size: 10px;
+        font-weight:bold;
+        line-height: 16px;
+        margin-bottom: 12px;
+      }
+      .auth1,.views1,.auth2,.views2,.auth3,.views3,.auth4,.views4,.auth5,.views5,.auth6,.views6
+      ,.auth7,.views7,.auth8,.views8,.auth9,.views9,.auth10,.views10,.auth11,.views11,.auth12,.views12{
+        font-size: 10px;
+        color: rgb(125, 124, 124);
+        font-weight: 200;
+      }
+      .auth1,.auth2,.auth3,.auth4,.auth5,.auth6,
+      .auth7,.auth8,.auth9,.auth10,.auth11,.auth12{
+        margin-bottom: 3px;
+      }
+      .progrid{
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        
+      }
+      .pro13{
+        height:30px;
+        width: 30px;
+        border-radius: 60px;
+        object-fit:fill;
+      }
+
+      .time1{
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        border-radius: 2px;
+        position: absolute;
+        bottom: 8px;
+        right: 6px;
+        padding-top: 4px;
+        padding-left: 4px;
+        padding-bottom: 4px;
+        padding-right: 4px;
+        font-weight: 700;
+      }
