@@ -68,12 +68,7 @@
         grid-template-columns: 40px 1fr;
         
       }
-      .pro13{
-        height:30px;
-        width: 30px;
-        border-radius: 60px;
-        object-fit:fill;
-      }
+      
 
       .time1{
         background-color: black;
@@ -89,4 +84,5 @@
         padding-bottom: 4px;
         padding-right: 4px;
         font-weight: 700;
+
       }
